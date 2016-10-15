@@ -16,7 +16,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+  firebase:{    apiKey: "AIzaSyDcVo2iXiiVZenTVnsXWe5pULZPRj4YYKE",
+    authDomain: "pariseo-13100.firebaseapp.com",
+    databaseURL: "https://pariseo-13100.firebaseio.com",
+    storageBucket: "pariseo-13100.appspot.com",
+    messagingSenderId: "425576950407"
+
+},  
+  torii: {  
+   sessionServiceName: 'session'
+  }
+
   };
 
   if (environment === 'development') {
